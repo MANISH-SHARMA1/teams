@@ -12,7 +12,7 @@ app.use(morgan("common"));
 app.use(
   cors({
     credentials: true,
-    origin: "https://teams-clients.vercel.app/",
+    origin: "https://teams-clients.vercel.app",
   })
 );
 
